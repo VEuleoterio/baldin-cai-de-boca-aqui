@@ -21,3 +21,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+# Ignore MySQL socket file
+.containers/sorveteria-db/mysql.sock
+
+# Ignore MySQL data files
+.containers/sorveteria-db/*.cnf
+.containers/sorveteria-db/ib_logfile*
+.containers/sorveteria-db/ibdata*
+.containers/sorveteria-db/ib_buffer_pool
+.containers/sorveteria-db/*.err
+.containers/sorveteria-db/*.pid
